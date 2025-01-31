@@ -81,9 +81,7 @@ The final Logistic Regression model was saved using **Pickle**:
 python
 import pickle
 
-file = open("Logistic_regression_model.pkl", "wb")
-pickle.dump(log_model, file)
-file.close()
+
 
 
 ## Conclusion
